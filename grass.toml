@@ -1,0 +1,176 @@
+# grass.toml - Helix editor theme
+# Based on the naysayer Emacs theme
+# Dark green blue color scheme with tan colors
+
+"ui.background" = { bg = "background" }
+"ui.text" = { fg = "text" }
+"ui.text.focus" = { fg = "white" }
+"ui.text.info" = { fg = "text" }
+"ui.virtual" = { fg = "line-fg" }
+"ui.virtual.whitespace" = { fg = "line-fg" }
+"ui.virtual.indent-guide" = { fg = "line-fg" }
+"ui.virtual.ruler" = { bg = "highlight-line" }
+
+"ui.cursor" = { bg = "white", fg = "background" }
+"ui.cursor.primary" = { bg = "white", fg = "background" }
+"ui.cursor.match" = { bg = "selection" }
+
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "selection" }
+"ui.cursorline.primary" = { bg = "highlight-line" }
+
+"ui.linenr" = { fg = "line-fg", bg = "background" }
+"ui.linenr.selected" = { fg = "white", bg = "background" }
+
+"ui.statusline" = { fg = "background", bg = "text" }
+"ui.statusline.inactive" = { fg = "text", bg = "background" }
+"ui.statusline.normal" = { fg = "background", bg = "text" }
+"ui.statusline.insert" = { fg = "background", bg = "strings" }
+"ui.statusline.select" = { fg = "background", bg = "constants" }
+
+"ui.popup" = { fg = "text", bg = "background" }
+"ui.popup.info" = { fg = "text", bg = "background" }
+"ui.window" = { fg = "text" }
+"ui.help" = { fg = "text", bg = "background" }
+
+"ui.menu" = { fg = "text", bg = "background" }
+"ui.menu.selected" = { fg = "background", bg = "text" }
+
+"diagnostic.error" = { underline = { color = "error", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "warning", style = "curl" } }
+"diagnostic.info" = { underline = { color = "constants", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "comments", style = "curl" } }
+
+"error" = { fg = "error" }
+"warning" = { fg = "warning" }
+"info" = { fg = "constants" }
+"hint" = { fg = "comments" }
+
+"comment" = { fg = "comments" }
+"comment.line" = { fg = "comments" }
+"comment.block" = { fg = "comments" }
+"comment.block.documentation" = { fg = "comments" }
+
+"constant" = { fg = "constants" }
+"constant.numeric" = { fg = "numbers" }
+"constant.numeric.integer" = { fg = "numbers" }
+"constant.numeric.float" = { fg = "numbers" }
+"constant.character" = { fg = "constants" }
+"constant.character.escape" = { fg = "constants" }
+"constant.builtin" = { fg = "constants" }
+"constant.builtin.boolean" = { fg = "constants" }
+
+"string" = { fg = "strings" }
+"string.regexp" = { fg = "strings" }
+"string.special" = { fg = "strings" }
+"string.special.symbol" = { fg = "strings" }
+
+"character" = { fg = "strings" }
+"character.special" = { fg = "constants" }
+
+"number" = { fg = "numbers" }
+"boolean" = { fg = "constants" }
+
+"type" = { fg = "punctuation" }
+"type.builtin" = { fg = "builtin" }
+"type.enum.variant" = { fg = "constants" }
+
+"constructor" = { fg = "functions" }
+
+"attribute" = { fg = "macros" }
+"attribute.builtin" = { fg = "macros" }
+
+"property" = { fg = "variables" }
+
+"function" = { fg = "functions" }
+"function.builtin" = { fg = "builtin" }
+"function.method" = { fg = "methods" }
+"function.macro" = { fg = "macros" }
+"function.special" = { fg = "macros" }
+
+"variable" = { fg = "variables" }
+"variable.builtin" = { fg = "builtin" }
+"variable.parameter" = { fg = "variables" }
+"variable.other.member" = { fg = "variables" }
+
+"keyword" = { fg = "keywords" }
+"keyword.control" = { fg = "keywords" }
+"keyword.control.conditional" = { fg = "keywords" }
+"keyword.control.repeat" = { fg = "keywords" }
+"keyword.control.import" = { fg = "keywords" }
+"keyword.control.return" = { fg = "keywords" }
+"keyword.control.exception" = { fg = "keywords" }
+"keyword.operator" = { fg = "punctuation" }
+"keyword.directive" = { fg = "macros" }
+"keyword.function" = { fg = "keywords" }
+"keyword.storage" = { fg = "keywords" }
+"keyword.storage.type" = { fg = "keywords" }
+"keyword.storage.modifier" = { fg = "keywords" }
+
+"operator" = { fg = "punctuation" }
+
+"punctuation" = { fg = "punctuation" }
+"punctuation.bracket" = { fg = "punctuation" }
+"punctuation.delimiter" = { fg = "punctuation" }
+"punctuation.special" = { fg = "punctuation" }
+
+"label" = { fg = "keywords" }
+
+"tag" = { fg = "keywords" }
+"tag.builtin" = { fg = "keywords" }
+
+"namespace" = { fg = "variables" }
+
+"special" = { fg = "macros" }
+
+"markup.heading" = { fg = "keywords" }
+"markup.heading.marker" = { fg = "punctuation" }
+"markup.heading.1" = { fg = "keywords" }
+"markup.heading.2" = { fg = "keywords" }
+"markup.heading.3" = { fg = "keywords" }
+"markup.heading.4" = { fg = "keywords" }
+"markup.heading.5" = { fg = "keywords" }
+"markup.heading.6" = { fg = "keywords" }
+"markup.list" = { fg = "punctuation" }
+"markup.list.unnumbered" = { fg = "punctuation" }
+"markup.list.numbered" = { fg = "punctuation" }
+"markup.bold" = { fg = "text", modifiers = ["bold"] }
+"markup.italic" = { fg = "text", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "strings", modifiers = ["underlined"] }
+"markup.link.text" = { fg = "constants" }
+"markup.link.label" = { fg = "constants" }
+"markup.quote" = { fg = "comments" }
+"markup.raw" = { fg = "strings" }
+"markup.raw.inline" = { fg = "strings" }
+"markup.raw.block" = { fg = "strings" }
+
+"diff.plus" = { fg = "comments" }
+"diff.minus" = { fg = "error" }
+"diff.delta" = { fg = "warning" }
+"diff.delta.moved" = { fg = "constants" }
+
+[palette]
+background = "#062329"
+text = "#d1b897"
+white = "#ffffff"
+selection = "#0000ff"
+highlight-line = "#0b3335"
+line-fg = "#126367"
+
+# Syntax colors
+comments = "#44b340"
+punctuation = "#8cde94"
+keywords = "#ffffff"
+variables = "#c1d1e3"
+functions = "#ffffff"
+methods = "#c1d1e3"
+strings = "#2ec09c"
+constants = "#7ad0c6"
+macros = "#8cde94"
+numbers = "#7ad0c6"
+builtin = "#ffffff"
+
+# Diagnostics
+error = "#ff0000"
+warning = "#ffaa00"
