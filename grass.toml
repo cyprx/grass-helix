@@ -151,17 +151,17 @@
 "diff.delta.moved" = { fg = "constants" }
 
 [palette]
-background = "#062329"
-text = "#d1b897"
+background = "#060d06"
+text = "#c8d8c8"
 white = "#ffffff"
-selection = "#3d3020"
-highlight-line = "#0b3335"
-line-fg = "#126367"
+selection = "#182e18"
+highlight-line = "#0c1c0c"
+line-fg = "#2a5a2a"
 
 # Syntax colors
 comments = "#44b340"
 punctuation = "#8cde94"
-keywords = "#ffffff"
+keywords = "#7fff7f"
 variables = "#c1d1e3"
 functions = "#ffffff"
 methods = "#c1d1e3"
