@@ -151,7 +151,7 @@
 "diff.delta.moved" = { fg = "constants" }
 
 [palette]
-background = "#060d06"
+background = "#062329"
 text = "#c8d8c8"
 white = "#ffffff"
 selection = "#182e18"
