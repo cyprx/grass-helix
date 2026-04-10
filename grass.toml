@@ -71,7 +71,7 @@
 "number" = { fg = "numbers" }
 "boolean" = { fg = "constants" }
 
-"type" = { fg = "punctuation" }
+"type" = { fg = "types" }
 "type.builtin" = { fg = "builtin" }
 "type.enum.variant" = { fg = "constants" }
 
@@ -152,24 +152,25 @@
 
 [palette]
 background = "#062329"
-text = "#c8d8c8"
+text = "#e2d5c1"
 white = "#ffffff"
 selection = "#182e18"
 highlight-line = "#0c1c0c"
 line-fg = "#2a5a2a"
 
 # Syntax colors
-comments = "#44b340"
+comments = "#36b042"
 punctuation = "#8cde94"
-keywords = "#7fff7f"
-variables = "#c1d1e3"
+keywords = "#86c1b9"
+variables = "#decb91"
 functions = "#ffffff"
-methods = "#c1d1e3"
+methods = "#decb91"
 strings = "#2ec09c"
 constants = "#7ad0c6"
 macros = "#8cde94"
-numbers = "#7ad0c6"
+numbers = "#82c0ac"
 builtin = "#ffffff"
+types = "#9bc181"
 
 # Diagnostics
 error = "#ff0000"
